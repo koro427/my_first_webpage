@@ -1,0 +1,149 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.headerBackground {
+    background: #1F2937;
+}
+
+.headerOne {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 16px;
+}
+
+.headerLinks div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+   
+}
+
+.headerTwoLeftSide {
+    width: 350px;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerTwoButton {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.headerTwoRightSide {
+    color: white;
+    background-color: gray ;
+    width: 600px;
+    align-self: stretch;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentOneWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 62px;
+}
+
+.contentOneTopic {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.contentOne {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    border: solid #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.contentOneCardOne,
+.contentOneCardTwo,
+.contentOneCardThree,
+.contentOneCardFour {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardText {
+    max-width: 150px;
+    align-self: center;
+    text-align: center;
+}
+
+
+.contentTwo {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 720px;
+}
+
+.quoteAuthor {
+}
